@@ -1,0 +1,97 @@
+       .clearfloat:after {
+            display:block;
+            clear:both;
+            content:"";
+            visibility:hidden;
+            height:0
+        }
+        .clearfloat{
+            zoom:1
+        }
+
+        .sevice {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service_ul {
+            overflow: auto;
+
+        }
+        .border_bottom{
+            border-bottom: 1px solid rgb(241,241,241);
+        }
+        .border_right {
+            border-right: 1px solid rgb(241,241,241);
+        }
+        .sevice_complaint {
+            position: relative;
+            display: inline;
+            float: left;
+            width: 33.2%;
+        }
+        .service_link{
+            line-height: 45px;
+            text-align: center;
+            padding: 45px 0;
+        }
+        .service_span{
+            font-size: 28px;
+            height: 40px;
+            display: block;
+            color: #278819;
+            background-position: 0 50%;
+            font-family: "Microsoft YaHei";
+        }
+        .service_span {
+
+            outline: none;
+            font-family: "Microsoft YaHei";
+
+        }
+        .service_link a{
+            display: inline-block;
+            width:100%;
+            height: 100%;
+            text-decoration: none;
+        }
+        .sevice ul,li{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .service_icon{
+            display: inline-block;
+            height: 70px;
+            width: 70px;
+            margin-bottom: 5px;
+
+        }
+        .icon_ask{
+            background: url("https://3g.tuyoo.com/html/LandingPage/singlePage/images/ask.png") no-repeat;
+            background-size: contain;
+        }
+        .icon_problem{
+            background: url("https://3g.tuyoo.com/html/LandingPage/singlePage/images/problem.png") no-repeat;
+            background-size: contain;
+        }
+        .icon_saishi{
+            background: url("https://3g.tuyoo.com/html/LandingPage/singlePage/images/saishi.png") no-repeat;
+            background-size: contain;
+        }
+        .icon_rule{
+            background: url("https://3g.tuyoo.com/html/LandingPage/singlePage/images/rule.png") no-repeat;
+            background-size: contain;
+        }
+        .icon_call{
+            background: url("https://3g.tuyoo.com/html/LandingPage/singlePage/images/call.png") no-repeat;
+            background-size: contain;
+        }
+        .icon_phone{
+            background: url("https://3g.tuyoo.com/html/LandingPage/singlePage/images/phone.png") no-repeat;
+            background-size: contain;
+        }
+
+        ul.service_ul{
+            margin: 120px 0;
+        }

@@ -1,0 +1,16 @@
+.swiper-button-prev{
+    background: none;
+left:0;
+}
+.content .swiper-button-next{
+    background: none;
+    right: 30px;
+}
+
+/* 途游产品 */
+.pl{
+padding-left:50px;
+}
+.swiper-button-prev img,.swiper-button-next img{
+    width: 70%;
+}

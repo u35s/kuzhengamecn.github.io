@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>酷祯游戏</title>
+    <link href="/assets/css/index.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/service.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/swiper-3.4.2.min.css">
+    <link href="/assets/css/job.css" rel="stylesheet" type="text/css">
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/html5shiv.js"></script>
+    <style>
+        .fContent b {
+            color: #ff5151
+        }
+    </style>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav">
+    <div class="wrap clear">
+        <div class="logo">酷祯游戏</div>
+        <ul id="nav" class="clear white">
+            <li>
+                <a href="/" class="b-active">首页</a>
+            </li>
+        </ul>
+        <div id="move">
+            <div class="moveAlong" style="left: 0px;"></div>
+        </div>
+    </div>
+</header>
+<script src="/assets/js/move.js"></script>
+
+<!--main-->
+<div class="wrap">
+    <div class="common2">
+        <div class="gameHead clear green">
+            <div class="ghLeft f18">
+                微信小游戏
+            </div>
+            <div class="ghRight">
+                <ul id="ghrNav" class="clear f14">
+<!--                    <li class="ghrActive">微信小游戏</li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="gameCarousel" style="display: none;">
+            <ul id="gbanner" class="clear" style="width: 960px;">
+                <li>
+                    <a href="http://www.tuyoo.com/doudizhu/8.html" target="_blank"><img src="/assets/img/beitou.jpg" alt=""></a>
+                </li>
+            </ul>
+            <div id="gleft"></div>
+            <div id="gright"></div>
+        </div>
+        <div id="gameContent" class="pl" style="height: 619px;">
+            <ul id="gcContent" class="clear">
+                <li class="gccSec">
+                    <ul class="gCont clear content">
+                        <div class="swiper-container proContent swiper-container-horizontal swiper-container-3d swiper-container-coverflow">
+                            <div class="swiper-wrapper" style="transform: translate3d(-1062.86px, 0px, 0px); transition-duration: 300ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6" style="width: 342.857px; transform: translate3d(240px, 0px, -480px) rotateX(0deg) rotateY(80deg); z-index: -7; transition-duration: 300ms;">
+                                    <img src="/assets/img/colorRoad.jpg" alt="彩球">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="0" style="width: 342.857px; transform: translate3d(119.95px, 0px, -239.9px) rotateX(0deg) rotateY(39.9833deg); z-index: -3; transition-duration: 300ms;">
+                                    <img src="/assets/img/colorRoad.jpg" alt="彩球">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="0" style="width: 342.857px; transform: translate3d(119.95px, 0px, -239.9px) rotateX(0deg) rotateY(39.9833deg); z-index: -3; transition-duration: 300ms;">
+                                    <img src="/assets/img/fish.jpg" alt="鱼">
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-prev" style="display: block;"><img src="/assets/img/rowl.png" alt=""></div>
+                            <div class="swiper-button-next" style="display: block;"><img src="/assets/img/rowr.png" alt=""></div>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <script src="测试_files/game.js"></script> -->
+
+<script src="/assets/js/swiper-3.4.2.min.js"></script>
+<script>
+
+    var mySwiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        slidesPerView: 2,
+        autoplay: 2000,
+        loop: true,
+        centeredSlides: true,
+        coverflow: {
+            rotate: 10,
+            stretch: 30,
+            depth: 60,
+            modifier: 2,
+            slideShadows: false
+        },
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        slideToClickedSlide: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        observer: true, //修改swiper自己或子元素时，自动初始化swiper
+        observeParents: true, //修改swiper的父元素时，自动初始化swiper
+    })
+</script>
+<footer>
+    <div class="fHead white textc f14">
+        <a href="/privacy.html" target="_blank">用户协议</a>
+        <span> | </span>
+        <a href="/watch.html" target="_blank">家长监护</a>
+    </div>
+    <p class="fContent f14 textc">上海酷祯网络科技有限公司</p>
+    <p class="fContent f14 textc">健康游戏忠告：抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防上当受骗；适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活。适龄提示：<b>本公司游戏仅适合18岁以上玩家</b>。</p>
+</footer>
+</body>
+</html>
